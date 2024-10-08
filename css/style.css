@@ -17,11 +17,14 @@ a:checked {
     text-decoration: none;
 }
 .container {
-    width: 1140px;
+    width: 1280px;
     margin: 0 auto;
 }
 
 /* Navbar CSS */
+#nav  {
+    background-color: #FFF8F3;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -53,5 +56,76 @@ a:checked {
     font-size: 20px;
     font-weight: 700;
     color: #f1f1f1;
+}
 
+/* Banner CSS */
+#hero {
+    background: url(../images/header_bg.png), url(../images/developer.png), #FFF8F3;
+    background-size: auto, contain;
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+}
+.left_content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left_content .left_item h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.left_content .left_item h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    padding-bottom: 20px;
+}
+.left_content .left_item p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.left_content .left_item a  {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f1f1f1;
+    padding: 18px 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    margin-right: 20px;
+    border: 2px solid #FD6E0A;
+    transition: all linear 0.2s;
+}
+.left_content .left_item a:hover {
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    background: transparent;
+}
+
+.left_content .left_item .btn_dif {
+    color: #FD6E0A;
+    background: transparent;
+    border: 2px solid #FD6E0A;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all linear 0.2s;
+}
+.left_content .left_item .btn_dif:hover {
+    background-color: #FD6E0A;
+    color: #f1f1f1;
+}
+.right_content {
+    width: 50%; 
+}
+.right_content img {
+    width: 100%;
 }
