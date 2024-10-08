@@ -34,8 +34,7 @@ a:checked {
     font-size: 45px;
     font-weight: 800;
     color: #181818;
-    text-transform: capitalize;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 .nav_logo a span {
     color: #FD6E0A;
@@ -128,4 +127,207 @@ a:checked {
 }
 .right_content img {
     width: 100%;
+}
+
+/* Heading CSS */
+.heading {
+    text-align: center;
+}
+.heading h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    padding-bottom: 30px;
+}
+
+.heading p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    padding-bottom: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* About CSS */
+#about {
+    margin: 130px 0px;
+    padding: 155px 130px;
+    background-color: #FFF8F3;
+}
+.about_container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.about_container .about_items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.about_container .about_items .about_item h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.about_container .about_items .about_item p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* Expertise CSS */
+#expertise {
+    margin-bottom: 130px;
+}
+.expertise_container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 20px;
+}
+.expertise_container .expertise_card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.expertise_container .expertise_card h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.expertise_container .expertise_card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.expertise_container .expertise_card img {
+    width: 50px;
+}
+
+/* Resume CSS */
+#resume {
+    margin-bottom: 130px;
+}
+.resume_container  {
+    display: flex;
+    gap: 20px;
+}
+.left_resume {
+    width: 50%;
+}
+.right_resume {
+    width: 50%;
+}
+
+.resume_item {
+    margin-bottom: 20px;
+}
+.resume_item h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    padding-bottom: 30px;
+}
+.resume_item h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    padding-bottom: 15px;
+}
+.resume_item h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume_item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    border-bottom: 2px solid #757575;
+    padding-bottom: 30px;
+    padding-bottom: 25px;
+}
+.resume_btn {
+    text-align: center;
+    margin-top: 40px;
+}
+.resume_btn a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f1f1f1;
+    padding: 18px 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    margin-right: 20px;
+    border: 2px solid #FD6E0A;
+    transition: all linear 0.2s;
+}
+.resume_btn a:hover {
+    background: transparent;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+/* Footer CSS */
+
+#footer {
+    padding: 130px 0px;
+    background-color: #FFF8F3;
+}
+.footer_container {
+    display: flex;
+}
+.footer_left {
+    width: 50%;
+}
+.footer_left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    padding-bottom: 25px;
+}
+.footer_left a i{
+    font-size: 30px;
+    color: #FD6E0A;
+    margin-right: 20px;
+}
+.footer_right {
+    width: 50%;
+    text-align: center;
+}
+.footer_right form input {
+    padding: 20px 240px 20px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 15px;
+}
+.footer_right form textarea {
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 15px;
+}
+.footer_right form button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    margin-right: 20px;
+    border: 2px solid #FD6E0A;
+    transition: all linear 0.2s;
 }
